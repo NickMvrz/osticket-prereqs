@@ -10,7 +10,9 @@
 
 <h2>What is osTicket?</h2>
 - osTicket is an open source ticketing system that organizations use to manage customer support queries regarding computer issues. 
-
+<p>
+   
+</p>
 
 - In this tutorial I will outline the prerequisites and installation process of the open-source help desk ticketing system osTicket. After osTicket is installed, I will explore and test the features of the osTicket ticketing system to get an idea of what it's like to handle tickets and interact with users.<br />
 
@@ -28,7 +30,7 @@
 <h2>List of Prerequisites</h2>
 
 - Create Virtual Machine (In Microsoft Azure)
-- Install the files located above.
+- Install the files located above: osTicket v1.15.8, HeidiSQL, MySQL, PHP, C++ Redistributable
 
 <h2>Installation Steps</h2>
 
