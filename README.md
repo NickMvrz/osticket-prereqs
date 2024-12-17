@@ -3,12 +3,13 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
+What is osTicket?
+- osTicket is an open source ticketing system that organizations use to manage customer support queries regarding computer issues.
 
-<h2>Video Demonstration</h2>
+What's the goal?
+ This goal is to show a tutorial that outlines the prerequisites and installation of the open-source help desk ticketing system osTicket. After osTicket is installed, I will explore and test the features of the osTicket ticketing system to get an idea of what it's like to handle tickets and interact with users.<br />
 
-C:\Users\Labuser2k\Desktop\my-file.docx
 
 <h2>Environments and Technologies Used</h2>
 
@@ -21,20 +22,30 @@ C:\Users\Labuser2k\Desktop\my-file.docx
 - Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
-
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create a Virtual Machine within Microsoft Azure
+- Enable Internet Information Services within VM
+- Enable CGI (within Internet Information Services)
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+<img src="https://imgur.com/a/5ULdZMG" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Several installation files need to be downloaded to load osTicket. These can be found on the osTicket site.
+  
+On Azure, we will create a resource group (use to contain and manage our resources, in this case, a virtual machine.
+  
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+  -Once the virtual machine is deployed, I will login with the credentials I created. Then when we are in the VM we will enable IIS. (Internet Information Services) This web server will run on the VM and allow me to "serve" osTicket.
+</p>
+<p>
+
 </p>
 <br />
 
@@ -42,14 +53,6 @@ Several installation files need to be downloaded to load osTicket. These can be 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+-Access the control panel and click the turn on windows features option.
 </p>
 <br />
