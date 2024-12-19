@@ -42,7 +42,7 @@
 ![68747470733a2f2f692e696d6775722e636f6d2f644546316337682e706e67](https://github.com/user-attachments/assets/724a3ded-6e61-4126-9574-383866c03035)
 
 
-<h3 align="center">2.) Open Windows app (Mac) or Remote Desktop Connection (Windows) and connect to the Virtual machine with the public IP address created within the VM.
+<h3 align="center">2.) Open the Windows app (Mac) or Remote Desktop Connection (Windows) and connect to the Virtual machine with the public IP address created within the VM.
 <br /> 
 <p>
  
@@ -54,7 +54,7 @@
 ![255309386-2e71fd86-4198-47aa-aa1a-d0aed1b8e0eb](https://github.com/user-attachments/assets/a0d2d011-0ca9-4549-b215-700447cc2373)
 
  
-<h3 align="center">3.) Now that we have logged onm we need to enable IIS. (Internet Information Services) This web server will run on the VM and allow me to "serve" osTicket.</h3>
+<h3 align="center">3.) Now that we have logged on we need to enable IIS. (Internet Information Services) This web server will run on the VM and allow me to "serve" osTicket.</h3>
 <p>
  
 </p>
