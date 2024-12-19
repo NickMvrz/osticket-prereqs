@@ -35,7 +35,8 @@
 <h2>Installation Steps</h2>
 
 <p>
-<h3 align="center">1.) On Azure, we will create a resource group (used to contain and manage our resources, in this case, a virtual machine.)</h3>
+<h3 align="center">1.) On Azure, we will create a resource group and a Virtual Machine. (used to contain and manage our resources, in this case, a virtual machine).</h3>
+<p align="center">Once you have created the VM, copy the Public IP address.</p>
 <br />
 
    
